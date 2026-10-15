@@ -1,0 +1,18 @@
+
+:root {
+    --task-bg: #f7f8fa;
+    --task-surface: #ffffff;
+    --task-text: #202124;
+    --task-muted: #737780;
+    --task-border: #e7e9ee;
+    --task-primary: #5965e8;
+}
+
+html[data-task-theme="dark"] {
+    --task-bg: #17191f;
+    --task-surface: #22252d;
+    --task-text: #f1f2f5;
+    --task-muted: #a6aab5;
+    --task-border: #353944;
+    --task-primary: #929aff;
+}
